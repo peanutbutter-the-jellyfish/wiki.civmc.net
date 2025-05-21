@@ -31,14 +31,14 @@ This is a player created and maintained map of the world. It includes many layer
 ## Basic Mechanics
 Civ is driven by its complex plugins which allow for player-enforced justice and protection. Many times these plugins are combined together to legitimize the power of players and groups.
 
-### [NameLayer](./plugins/essential/namelayer)
+### [NameLayer](./plugins/essential/NameLayer)
 This is the ultimate group management plugin (Imagine discord, but for minecraft !!).
 
-Namelayer allows you to create different groups with a name of your choosing. You can add/remove/promote/demote different players on this group and depending on their level of permission they can do the same, access reinforcements (called bypass, allowing others to break your reinforced blocks instantly) and build things that you can also access as the owner.
+NameLayer allows you to create different groups with a name of your choosing. You can add/remove/promote/demote different players on this group and depending on their level of permission they can do the same, access reinforcements (called bypass, allowing others to break your reinforced blocks instantly) and build things that you can also access as the owner.
 
-Here are the various commands relevant to Namelayer:
+Here are the various commands relevant to NameLayer:
 
-**/nl**: View a general overview of all of the Namelayer groups you are in. You can do anything above that I mentioned via a GUI. Recommended for new players.<br>
+**/nl**: View a general overview of all of the NameLayer groups you are in. You can do anything above that I mentioned via a GUI. Recommended for new players.<br>
 **/nlcg [group name]**: Create a group with a specified group name. If it’s taken already it will tell you.<br>
 **/nlip [group name] [player] [rank]**: Invite a player to a specific group and rank. You can leave rank blank for the default permission level, you can also do MODS to allow them to bypass your reinforcements, and also ADMINS and OWNER.<br>
 **/nlrm [group name] [player]**: Maybe the person you invited wasn’t so trusty after all! Quickly remove them from a specific group with this command.
@@ -61,9 +61,9 @@ The materials required for reinforcing and their respective health are listed in
 
 To reinforce your build, you can use any of the following commands:
 
-**/ctr [optional group]**: Holding a reinforcement material, type this command then start left clicking blocks around you to reinforce. The first parameter is the Namelayer group which you want to reinforce to, you can leave it blank if you just want to reinforce your personal group. 
+**/ctr [group is optional]**: Holding a reinforcement material, type this command then start left clicking blocks around you to reinforce. The first parameter is the NameLayer group which you want to reinforce to, you can leave it blank if you just want to reinforce your personal group. 
 
-**/ctf [optional group]**: Holding a reinforcement material, type this command. You can now start placing blocks to automatically reinforce them.
+**/ctf [group is optional]**: Holding a reinforcement material, type this command. You can now start placing blocks to automatically reinforce them.
 
 **/cti**: Running **/cti** allows you to see information about different block reinforcements by left clicking on them.
 
@@ -96,7 +96,7 @@ There are 2 types of snitches:
 
 Because of the smart ways people utilize snitches, raiding and not getting caught is virtually impossible. If you are a player with that playstyle, be wary. You might be able to escape justice for a few days but you will always get caught, no matter what. The best, most elusive pvpers on this server with infinitely more knowledge than you have gotten will get you eventually.
 
-To place a snitch, place down a noteblock or a jukebox and reinforce it to a Namelayer.<br>
+To place a snitch, place down a noteblock or a jukebox and reinforce it to a NameLayer.<br>
 In the case of jukeboxes. Running the command **/ja** in front of it will show the logs of everything that has happened in its radius.
 
 ![jalog](./media/jalog.png)
@@ -130,7 +130,7 @@ A factory consists of a chest, crafting table and a furnace kept side by side. A
 2. Left click the crafting table with the tick to open a GUI, and select the recipe to run.
 3. Add charcoal to the furnace and left click the chest with the stick.
 
-Almost Every block that can be crafted using a crafting table has a factory recipe. You can check if an item has one using the command **/item [item name]**.
+Almost every block that can be crafted using a crafting table has a factory recipe. You can check if an item has one using the command **/item [item name]**.
 Alternatively https://civtechtree.netlify.app/items is a handy website to check out all the factories and their recipes. Remember if possible, always use factories (or buy items) instead of crafting.
 
 ### [Hiddenore](./plugins/unique/hiddenore)
@@ -157,7 +157,7 @@ Veins are ore spawns which mimic the real world in which ores are not isolated i
 **Fossils**:
 While mining you will see fossils (which look like prismarine shards) dropping to you, these are like small loot boxes that can be broken in the smelter for random rewards.
 
-### [Realistic Biomes](./plugins/unique/rb)
+### [RealisticBiomes(](./plugins/unique/rb)
 You may have noticed your wheat farm isn’t growing even after several hours! Well there is a plugin called RealisticBiomes that prevents certain crops from growing based on the biome. <br>
 You can check what crops can grow with the command **/rb**. Growth times are purposely several hours long, in order to produce enough players thus create massive farms.
 
